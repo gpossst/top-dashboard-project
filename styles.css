@@ -1,0 +1,214 @@
+:root {
+    --primary-color: #4287f5;
+    --secondary-color: #424656;
+}
+
+a {
+   text-decoration: none; 
+}
+
+a:visited {
+    color: black;
+}
+
+.icon {
+    width: 30px;
+}
+
+.rounded {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.mast > .rounded {
+    width: 80px;
+    height: 80px;
+}
+
+.card-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#layout {
+    display: grid;
+    grid-template: 70px 1fr / 220px 1fr;
+}
+
+#sidebar {
+    grid-row: span 2;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#top {
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 15px 0px 0px;
+}
+
+.x-axis {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#masthead {
+    grid-column: 2 / 3;
+    display: grid;
+}
+
+input[type=search]{
+    border-radius: 50px;
+    height: 35px;
+    width: 43vw;
+}
+
+#content {
+    grid-column: 2/3;
+}
+
+#masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 15px;
+    box-shadow: 0 6px 7px -8px gray;
+    padding-bottom: 8px;
+}
+
+.mast {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.greeting  {
+    font-size: 15px;
+}
+
+.user {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.user-name {
+    font-size: 18px;
+}
+
+#masthead > .push > button {
+    border-radius: 50px;
+    width: 90px;
+    height: 35px;
+    border-color: white;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects > .content-left > h2 {
+    font-size: 20px;
+    padding: 10px 0px 10px 5px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--primary-color);
+    border: solid 3px var(--secondary-color);
+    border-radius: 17px;
+    color: white;
+    padding: 10px;
+}
+
+.card > h3 {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.side {
+    padding: 15px;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+}
+
+.reccomendations > h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.side-card {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-bottom: 9px;
+}
+
+.side-card > h4 {
+    font-size: 18px;
+}
+
+.bar {
+    margin-top: 12px;
+    height: 2px;
+    width: 30px;
+    background-color: var(--secondary-color);
+}
+
+.trending {
+    margin-top: 7px;
+}
+
+.trending-profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.stacked-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
